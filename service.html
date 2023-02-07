@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robust Engineering Works</title>
+    <link rel="icon" type="image/x-icon" href="images/navbar-logo.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img src="images/navbar-logo.png" alt="Robust Engineering Works"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Services We Offer </h1>
+
+    </section>
+
+     <!------------- Services content -------------->
+
+     <section class="services">
+        <h1>Services We Offer</h1>
+        <p> CNC machining and injection moulding services and much more</p>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Plastic Injection Moulding</h3>
+                <p>Robust Engineering Works utilizes a rapid injection moulding technology where CAD models are sent to the shop floor for mould milling. Depending of the life-cycle of the product, moulds are made, ranging from heavy duty to simple ones. Ideas can be transformed into design in as fast as 1 month. We also offer secondary services to support your project, so that you don't have to go through different suppliers to get your final product made. We have our own machine shop, which allows to reduce delays due to breakdown and delay from other suppliers. </p>
+            </div>
+            <div class="service-col">
+                <h3>Plastic Injection Moulding die manufacture</h3>
+                <p>Robust Engineering Works utilizes a rapid injection moulding technology where CAD models are sent to the shop floor for mould milling. Depending of the life-cycle of the product, moulds are made, ranging from heavy duty to simple ones. Ideas can be transformed into design in as fast as 1 month. We also offer secondary services to support your project, so that you don't have to go through different suppliers to get your final product made. We have our own machine shop, which allows to reduce delays due to breakdown and delay from other suppliers. </p>
+            </div>
+            <div class="service-col">
+                <h3>VMC Machining Job work</h3>
+                <p>Robust Engineering Works utilizes a rapid injection moulding technology where CAD models are sent to the shop floor for mould milling. Depending of the life-cycle of the product, moulds are made, ranging from heavy duty to simple ones. Ideas can be transformed into design in as fast as 1 month. We also offer secondary services to support your project, so that you don't have to go through different suppliers to get your final product made. We have our own machine shop, which allows to reduce delays due to breakdown and delay from other suppliers. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ctc">
+        <h1>CONCEPT TO COMPLETION</h1>
+        <p>Every project is formed from one core idea. Ideas are what provide us with the freedom to be creative.</p>
+        <div class="row">
+            <div class="ctc-col">
+                <img src="images/design_services.jpg" alt="design">
+                <div class="layer">
+                    <h3>DESIGN</h3>
+                    <p>Our experienced designers apply creative solutions to even the most challenging design manufacturing problems</p>
+                </div>
+            </div>
+            <div class="ctc-col">
+                <img src="images/TOOLMAKING.jpg" alt="tool making">
+                <div class="layer">
+                    <h3>TOOL MAKING</h3>
+                    <p>Our quality molds delivers precise products which lasts <br> for the life of your project</p>
+                </div>
+            </div>
+            <div class="ctc-col">
+                <img src="images/manufacturing.jpg" alt="manufacturing">
+                <div class="layer">
+                    <h3>MANUFACTURING</h3>
+                    <p>State-of-the-art injection molding machines allow us <br> to ramp up production. Our dedicated machine shop allows us to make changes to the mold instantly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+        <!------------- Call to Action -------------->
+
+        <section class="cta">
+            <h1>Get In Touch With Us Anywhere From The World</h1>
+            <a href="contact.html" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!------------- Footer -------------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Robust Engineering is a high volume, custom plastic injection moulding supplier.
+                We offer a turnkey and innovative manufacturing solution, including
+                 mold design, mold building, <br> and high volume parts manufacturing.
+                  Our globally competitive prices eliminate the risks of sourcing offshore. 
+                 </p>
+                 <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i> 
+                 </div>
+                 
+        </section>
+
+
+    <!------------- JS for menu -------------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+             navLinks.style.right = "0";
+        }
+        function hideMenu(){
+             navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

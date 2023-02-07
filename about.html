@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robust Engineering Works</title>
+    <link rel="icon" type="image/x-icon" href="images/navbar-logo.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/navbar-logo.png" alt="Robust Engineering Works"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+     <!------------- About us content -------------->
+
+     <section class="about-us">
+        <div class="row">
+            <div class="abt-col">
+                <h1>A revolutionary team</h1>
+                <p>One of the founders, Mr. K.J. Thomas, a machine operator, assembled a team of 15 people and marked the inception of Robust Engineering, previously known as Lunar Plastic in the year 1973.
+                    Our primary business was pressure die casting and we used to cater to clients like Siemens, Bajaj and Premier
+                
+Robust Engineering is a high volume, custom plastic injection moulding supplier.
+We offer a turnkey and innovative manufacturing solution, including mold design, mold building, and high volume parts manufacturing. Our globally competitive prices eliminate the risks of sourcing offshore.
+ We have a specialization in serving the textile and electronics industry, and we are now paving our way into automobile industry, medical and pharmaceutical, and food and beverage industry.</p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="abt-col">
+                <img src="images/2222.png" alt="">
+            </div>
+        </div>
+     </section>
+ 
+        <!------------- Call to Action -------------->
+
+        <section class="cta">
+            <h1>Get In Touch With Us Anywhere From The World</h1>
+            <a href="contact.html" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!------------- Footer -------------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Robust Engineering is a high volume, custom plastic injection moulding supplier.
+                We offer a turnkey and innovative manufacturing solution, including
+                 mold design, mold building, <br> and high volume parts manufacturing.
+                  Our globally competitive prices eliminate the risks of sourcing offshore. 
+                 </p>
+                 <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i> 
+                 </div>
+                 
+        </section>
+
+
+    <!------------- JS for menu -------------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+             navLinks.style.right = "0";
+        }
+        function hideMenu(){
+             navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
